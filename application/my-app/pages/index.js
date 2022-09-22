@@ -173,7 +173,7 @@ useEffect(() => {
     //Assign the web3Modal class to the reference object by setting its current value
     //The current cvalue is persisted throughout as long as this page is open 
     web3ModalRef.current = new Web3Modal({
-      network: "ropsten",
+      network: "goerli",
       providerOptions: {},
       disableInjectedProvider: false,
     });
